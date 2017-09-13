@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "test": "jest"
   },
   "babel": {
     "presets": [
@@ -27,6 +28,7 @@
     "eslint": "^4.6.1",
     "eslint-plugin-react": "^7.3.0",
     "html-webpack-plugin": "^2.30.1",
+    "jest": "^21.0.2",
     "style-loader": "^0.18.2",
     "webpack": "^3.4.1",
     "webpack-dev-server": "^2.6.1"
