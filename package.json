@@ -15,8 +15,8 @@
       "react"
     ]
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Efren Ulloa",
+  "license": "MIT",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
