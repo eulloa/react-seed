@@ -59,28 +59,3 @@ body {
     background: green;
     font-family: $font-family;
 }
-
-.board {
-    width: 500px;
-    height: 500px;
-    margin: 0 auto;
-    border-radius: 3px;
-    border: 1px solid #fff;
-}
-
-.word {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-
-    li {
-        display: inline-block;
-        margin: .5em;
-        padding: .5em;
-        background-color: #fff;
-
-        span {
-            display: none;
-        }
-    }
-}

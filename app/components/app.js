@@ -5,9 +5,7 @@ import WordCreator from './wordCreator';
 class App extends React.Component {
     render() {
         return (
-            <div className="board">
-                <WordCreator />
-            </div>
+            <h1>Hello world!</h1>
         );
     }
 }
