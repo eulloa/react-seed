@@ -1,15 +1,9 @@
 import React from 'react';
 
-import WordCreator from './wordCreator';
+import Board from './board';
 
-class App extends React.Component {
-    render() {
-        return (
-            <div className="board">
-                <WordCreator />
-            </div>
-        );
-    }
+let App = () => {
+    return <Board />
 }
 
 export default App;
